@@ -1,0 +1,17 @@
+import java.util.*;
+
+class Main {
+  public static int dobronumero(int n) {
+
+    return (n * 2);
+  }
+
+  public static void main(String[] args) {
+    Scanner entrada = new Scanner(System.in);
+    int numero;
+    System.out.println("Informe o número:");
+    numero = entrada.nextInt();
+    System.out.println("O dobro de " + numero + " é: " + dobronumero(numero));
+
+  }
+}
