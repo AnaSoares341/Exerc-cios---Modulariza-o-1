@@ -1,0 +1,28 @@
+import java.util.*;
+
+class Main {
+
+public static void main(String[] args){
+    maiornumero();
+  
+}
+  
+    public static int maiornumero() {
+    Scanner entrada = new Scanner(System.in);
+    int numero, num1, maior;
+    System.out.println("Informe dois números:");
+    numero = entrada.nextInt();
+    System.out.println("==============");
+    num1 = entrada.nextInt();
+    if (num1 > numero){
+      maior = num1;
+
+    System.out.println("O maior número é: " + maior );
+
+    } else {
+      maior = numero; 
+      System.out.println(" o maior número é: " + maior);
+      }
+    return maior;
+    } 
+}
